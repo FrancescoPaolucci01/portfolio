@@ -1,36 +1,27 @@
-# Portfolio tecnico di Francesco Paolucci
+﻿# Portfolio di Francesco Paolucci
 
-Sito statico pronto per GitHub Pages, senza installazioni o compilazione. Comprende cinque progetti, immagini selezionate e cinque schede PDF di sintesi.
+Sito statico HTML/CSS/JavaScript pronto per GitHub Pages. La revisione del 2 novembre 2026 mette in evidenza progettazione meccanica e analisi FEM, con disco freno e meccanismo come primi casi studio.
 
-## Caricamento su GitHub
+## Contenuti
 
-1. Crea un repository. Per GitHub Pages sul piano gratuito usa un repository pubblico.
-2. Carica **il contenuto di questa cartella** nella radice del repository: index.html deve essere al primo livello, accanto ad assets, progetti e schede.
-3. Apri Settings > Pages. In Build and deployment scegli Deploy from a branch, ramo main, cartella / (root), quindi Save.
-4. Aspetta il completamento della pubblicazione e apri l'indirizzo mostrato da GitHub.
-5. Usa quell'indirizzo nel CV come collegamento «Portfolio progetti».
+- Home, cinque pagine progetto e pagina 404.
+- Contributi personali aggiornati sulle conferme di Francesco, distinti dalle attività condivise.
+- Dieci schede PDF: cinque italiane e cinque inglesi. Il pulsante di download segue la lingua selezionata.
+- Immagini originali degli elaborati, con due evidenze aggiuntive per FEM e selezione dei concept.
+- Competenze collegate ai progetti, formazione, riconoscimenti e contatti.
 
-Puoi chiamare il repository portfolio. Se lo chiami NOMEUTENTE.github.io, il sito può essere raggiunto all'indirizzo https://NOMEUTENTE.github.io/. NOMEUTENTE è il tuo nome utente reale, non una stringa da lasciare invariata.
+La lingua iniziale è inglese, salvo preferenza salvata o parametro `?lang=it`. Senza JavaScript i contenuti italiani restano disponibili e tutti i progetti sono visibili. Il CV è disponibile su richiesta: il PDF definitivo da collegare non è stato ancora selezionato.
 
-## Struttura
+## Anteprima e pubblicazione
 
-- index.html: pagina iniziale.
-- progetti/: pagine di dettaglio dei cinque progetti.
-- schede/: PDF sintetici scaricabili.
-- assets/images/: immagini alleggerite tratte dagli elaborati.
-- assets/style.css e app.js: stile e filtro dei progetti.
-- .nojekyll: disattiva l'elaborazione Jekyll; non va eliminato.
+Per una consultazione semplice aprire index.html; per verificare l'intero comportamento è preferibile un server HTTP locale. Nel workspace di sviluppo si può usare `node tmp/serve-portfolio.cjs` e aprire http://127.0.0.1:4173/.
 
-Tutti i collegamenti interni sono relativi: il sito funziona sia nella radice sia nella sottocartella di un repository. Per visualizzarlo prima del caricamento puoi aprire index.html nel browser. Il filtro usa JavaScript; senza JavaScript tutti i progetti restano visibili.
+Per GitHub Pages caricare il contenuto di questa cartella nella radice del repository, conservando assets, progetti, schede e .nojekyll. I collegamenti sono relativi e supportano anche la sottocartella /portfolio/. La revisione è stata preparata localmente: non viene pubblicata automaticamente.
 
-## Contenuti e aggiornamenti
+## Manutenzione
 
-Il sito presenta i lavori universitari come progetti di team e indica gli autori. Le responsabilità personali dettagliate riguardano HackCortona, sulla base delle informazioni confermate da Francesco. I contributi individuali agli altri lavori potranno essere precisati successivamente.
+Nel workspace, sorgenti e istruzioni di ricostruzione si trovano in scripts/README-portfolio.md. Il generatore produce insieme pagine e schede nelle due lingue; i documenti originali restano separati.
 
-Il workshop Brunello Cucinelli & SAP BPM è datato 26 settembre **2025**, come nel documento fornito. La voce di HackCortona riporta «team vincitore» senza specificare una categoria non documentata.
+I risultati del disco sono numerici; il prototipo stampato riguarda forma e montaggio. Le quote del meccanismo ancora da verificare non sono pubblicate. Le stime economiche rimangono dichiarate come tali. Per HackCortona è attribuito a Francesco lo script e il gestionale iniziale, senza rivendicare tutta la versione finale.
 
-Non sono inclusi gli elaborati originali integrali, email, matricole, attestati firmati, credenziali, documenti degli ospiti o codice operativo di HackCortona. Le schede PDF sono riassunti nuovi, non copie delle relazioni.
-
-Per cambiare i testi puoi modificare direttamente gli HTML; le schede PDF vanno aggiornate separatamente. Non sono necessari servizi esterni, cookie, analytics o moduli di raccolta dati. I link email e LinkedIn sono gli unici contatti pubblicati.
-
-I materiali di gruppo conservano l'attribuzione agli autori. Nessuna licenza open source viene applicata automaticamente agli elaborati di terzi.
+Non sono inclusi relazioni integrali, dati degli ospiti, credenziali, attestati firmati o codice operativo di HackCortona. Le schede sono sintesi del portfolio; conservano l'attribuzione agli autori dei lavori di gruppo.
