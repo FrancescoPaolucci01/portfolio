@@ -80,7 +80,7 @@ const translations = {
   "← Tutti i progetti": "← All projects",
   "Analisi · A.A. 2025/2026": "Analysis · Academic Year 2025/2026",
   "Rilievo ottico di un provino trabecolare": "Optical measurement of a trabecular specimen",
-  "Scarica la scheda PDF ": "Download project brief (PDF, Italian) ",
+  "Scarica la scheda PDF ": "Download project brief (PDF) ",
   "Campo di spostamento ottenuto dall'elaborazione delle immagini con Ncorr.": "Displacement field obtained by processing images using Ncorr.",
   "misura ottica senza contatto con MATLAB/Ncorr": "non-contact optical measurement using MATLAB/Ncorr",
   "Contesto": "Context",
